@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME | MEDHEAL </title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<h4> MEDHEAL </h4>
+		</div>
+
+		<ul class="nav-links">
+			<li><a href="index.html"> HOME </a></li>
+      		<li><a href="about.html"> ABOUT US </a></li>
+      		<li><a href="services.html"> SERVICES </a></li>
+      		<li><a href="contact.html"> CONTACT US </a></li>
+			<li><a href="login.html" style="background-color: #0099cc; border-radius:5px; color: white; padding:9px"> SIGN IN/SIGN UP </a></li>
+
+
+		</ul>
+
+		<div class="menu">
+			<div class="one"> </div>
+			<div class="two"> </div>
+			<div class="three"> </div>
+		</div>
+	</nav>
+<div class ="image" style="position: relative; text-align: center; color: black; font-family: Helvetica, Arial, sans-serif; font-size: 25px;">
+        <img src="home.jpg" style="width: 100%; height: 25%; ">
+
+        <div class="text">
+            <h1 style="font-size: 32px; font-weight: bold; color: white;"> YOU ARE WELCOME TO MEDHEAL</h1>
+        </div>
+</div>
+<div style="margin-top: 5%;">
+<h2 style="text-align: center; ">Book your appointment now</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Your full Name:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Enter your full name">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="country"> Appiontment Date:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Enter date for appointment">
+    </div>
+</div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Appointment for</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Blood test</option>
+        <option value="canada">Whole body checkup</option>
+        <option value="usa">PCR Test</option>
+      </select>
+    </div>
+  </div>
+ 
+  <div class="row">
+    <input type="submit" value="Book now">
+  </div>
+  </form>
+</div>
+</div>
+
+<div style="background-color: #eeeedd; margin-top: 30px;  ">
+	<h2 style="text-align: center; margin-bottom: 30px;" > Testimonials </h2>
+	<h4 style="text-align: center;  margin-top: 10px;"> -We are always here for your good health. <br> -If you have any symptoms, get tested today and find the best medications <br> -Join our free medical camp <br> -Be a part of our leadership programme. </h4>
+	</div>
+
+<div class="footer">
+  <p style="padding-top: 4%;" >Copyright &copy; 2021 HOMEMED</p>
+</div>
+
+<style>
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+   margin-top: 20px;
+  background-color: #663300;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 25%;
+}
+
+input[type=submit]:hover {
+  background-color: #994d00;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+.footer {
+
+  margin-top: 30px;
+   height: 150px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+
+}
+</style>
+
+
+
